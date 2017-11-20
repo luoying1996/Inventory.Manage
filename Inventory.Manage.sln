@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "应用程序", "应用程序", "{8E6D7A5E-7FFC-4621-85DF-FFEB8526C950}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "应用服务", "应用服务", "{3309C777-F32B-4CE0-BF81-241F68DE83E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD656638-46F9-4BDA-B9CD-23BDF1D52A1F} = {3309C777-F32B-4CE0-BF81-241F68DE83E4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C249E60-B107-4400-960F-8C7319CCF6F6}
+	EndGlobalSection
+EndGlobal
